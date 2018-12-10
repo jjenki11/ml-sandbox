@@ -1,6 +1,8 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import sys
+import rpy2
+rpy2.__path__
 
 def parseArgs(args):
     # skip the first one, its just the file being run
